@@ -406,7 +406,7 @@ ol {
 }
 
 .nav-menu .mainmenu ul li.active a {
-	color: #e4381C;
+	color: #e4381C;/*#e4381C*/ /*color donde esta seleccionado*/
 }
 
 .nav-menu .mainmenu ul li.active a:after {
@@ -435,7 +435,7 @@ ol {
 	bottom: -5px;
 	width: 100%;
 	height: 2px;
-	background: #e4381C;
+	background: #e4381C;/*#e4381C*/ /*Linea de abajo*/
 	content: "";
 	opacity: 0;
 	-webkit-transition: all 0.3s;
@@ -450,7 +450,7 @@ ol {
 }
 
 .nav-menu .mainmenu ul li:hover>a {
-	color: #e4381C;
+	color: #e4381C; /*#e4381C*/ /*color al pasar el mouse*/
 }
 
 .nav-menu .mainmenu ul li:hover>a:after {
@@ -462,7 +462,7 @@ ol {
 	left: 0;
 	top: 70px;
 	width: 180px;
-	background: #e4381C;
+	background: #e4381C; /*#e4381C*/
 	opacity: 0;
 	visibility: hidden;
 	-webkit-transition: all 0.3s;
