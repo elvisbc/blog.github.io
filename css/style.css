@@ -608,6 +608,7 @@ ol {
 
 .single-hero-item .hero-text {
 	text-align: center;
+	
 }
 
 .single-hero-item .hero-text h2 {
@@ -619,6 +620,8 @@ ol {
 	position: relative;
 	top: 50px;
 	opacity: 0;
+
+	
 }
 
 .single-hero-item .hero-text h1 {
