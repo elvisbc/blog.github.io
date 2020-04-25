@@ -492,7 +492,7 @@ ol {
 }
 
 .top-social {
-	float: right;
+	float: center;
 }
 
 .top-social a {
@@ -3120,4 +3120,5 @@ ol {
 	.contact-map .map-hover {
 		left: 15%;
 	}
+	
 }
