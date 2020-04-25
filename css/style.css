@@ -512,14 +512,16 @@ ol {
 
 .hero-items .owl-item.active .single-hero-item .hero-text h2,
 .hero-items .owl-item.active .single-hero-item .hero-text h1,
+.hero-items .owl-item.active .single-hero-item .hero-text h3,
 .hero-items .owl-item.active .single-hero-item .hero-text .primary-btn {
 	top: 0;
 	opacity: 1;
 }
+
 .hero-items .owl-item.active .single-hero-item .hero-text h3 {
-	-webkit-transition: all 0.2s ease 0.2s;
-	-o-transition: all 0.2s ease 0.2s;
-	transition: all 0.2s ease 0.2s;
+	-webkit-transition: all 0.1s ease 0.1s;
+	-o-transition: all 0.1s ease 0.1s;
+	transition: all 0.1s ease 0.1s;
 	color: #ffffff;
 }
 
