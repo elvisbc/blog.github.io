@@ -186,6 +186,8 @@ ol {
 	position: relative;
 	z-index: 1;
 	border-radius: 4px;
+
+	background-color: #000;/*fodo boton */
 }
 
 .primary-btn:after {
@@ -517,6 +519,7 @@ ol {
 	top: 0;
 	opacity: 1;
 }
+
 
 .hero-items .owl-item.active .single-hero-item .hero-text h3 {
 	-webkit-transition: all 0.1s ease 0.1s;
