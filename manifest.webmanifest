@@ -2,6 +2,7 @@
     "short_name": "blog",
     "name": "nombre blog",
     "description": "Weather forecast information",
+    "crossorigin":"use-credentials",
     "icons": [
       {
         "src": "/img/logo.png",
