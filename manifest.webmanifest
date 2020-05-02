@@ -14,7 +14,7 @@
         "sizes": "512x512"
       }
     ],
-    "start_url": "https://elvisbc.github.io/blog.github.io/",
+    "start_url": "/elvisbc.github.io/blog.github.io/",
     "background_color": "#3367D6",
     "display": "standalone",
     "scope": "/",
