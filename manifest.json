@@ -5,17 +5,17 @@
     "crossorigin":"use-credentials",
     "icons": [
       {
-        "src": "img/llama.png",
+        "src": "img/logoapkpulse2ico.png",
         "type": "image/png",
         "sizes": "72x72"
       },
       {
-        "src": "img/llama.png",
+        "src": "img/logoapkpulse2ico.png",
         "type": "image/png",
         "sizes": "96x96"
       },
       {
-        "src": "img/llama.png",
+        "src": "img/logoapkpulse2ico.png",
         "type": "image/png",
         "sizes": "128x128"
       }
