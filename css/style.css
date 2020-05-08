@@ -187,7 +187,7 @@ ol {
 	z-index: 1;
 	border-radius: 4px;
 
-	background-color: #000;/*fodo boton */
+	background-color: rgba(68, 66, 66, 0.801);/*fondo boton */
 }
 
 .primary-btn:after {
@@ -2674,11 +2674,11 @@ ol {
 }
 
 /*---------------------
-  Contact Map Section
+  Contact Map Section --Seccion LIVE
 -----------------------*/
 
 .contact-map {
-	height: 530px;
+	height: 500px;
 	position: relative;
 }
 
