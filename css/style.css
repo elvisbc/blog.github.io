@@ -3133,3 +3133,28 @@ ol {
 	}
 	
 }
+
+/*DJ LIST*/
+.cuadro1{
+	margin: auto;background-color: #2e2c2cb6;
+	border-left: 2px solid #e16521;
+	border-left: 2px solid #e16521;
+	border-top: 2px solid #e16521;
+	border-right: 2px solid #e16521;
+	border-bottom: 2px solid #e16521;
+	width: min-content;
+	
+}
+.cuadro2{
+	margin: auto;background-color:black;
+	border-left: 2px solid #e16521;
+	border-left: 2px solid #e16521;
+	border-top: 2px solid #e16521;
+	border-right: 2px solid #e16521;
+	border-bottom: 2px solid #e16521;
+	width: 100%;
+	color: white;
+	
+	
+}
+
