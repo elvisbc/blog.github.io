@@ -3135,33 +3135,36 @@ ol {
 }
 
 /*DJ LIST*/
-.cuadro1 {
+.cuadro1  {
 	
-	background-color: #2e2c2cb6;
+	background-position: center center;
+    background: radial-gradient(circle, white, black);
 	border-left: 10px solid #111111;;
 	border-left: 10px solid #111111;
 	border-top: 10px solid #111111;
 	border-right: 10px solid #111111;
 	border-bottom: 10px solid #111111;
 	border-collapse: separate;
+
 	
 
 	
 }
-.cuadro2{
+/*.cuadro2{
 	
-	background-color:black;
+	background-position: center center;
+    background: radial-gradient(circle, white, black);
 	border-left: 10px solid #111111;
 	border-left: 10px solid #111111;
 	border-top: 10px solid #111111;
 	border-right: 10px solid #111111;
 	border-bottom: 10px solid #111111;
-	color: white;
 	border-collapse: separate;
+	
 
 	
 	
-}
+}*/
 .cuadro3{
 	
 	background-color:#151515;
