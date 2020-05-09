@@ -3137,17 +3137,12 @@ ol {
 /*DJ LIST*/
 .cuadro1  {
 	
-	background-position: center center;
-    background: radial-gradient(circle, white, black);
+	background: linear-gradient(0deg, white,black);
 	border-left: 10px solid #111111;;
 	border-left: 10px solid #111111;
-	border-top: 10px solid #111111;
+	/*border-top: 10px solid #111111;*/
 	border-right: 10px solid #111111;
-	border-bottom: 10px solid #111111;
-	border-collapse: separate;
-
-	
-
+	/*border-bottom: 10px solid #111111;*/
 	
 }
 /*.cuadro2{
