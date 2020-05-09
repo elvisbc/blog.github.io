@@ -3191,7 +3191,7 @@ ol {
 	text-transform: uppercase;
 	text-align: center;
 	width: 100px;
-	height: 40px;
+	height: 25px;
 	/*border-left: 2px solid #e16521;*/
 	/*border-right: 2px solid #e4381C;*/
 	-webkit-box-sizing: border-box;
@@ -3205,7 +3205,7 @@ ol {
 	-webkit-transition-duration: 1000ms;
 	-o-transition-duration: 1000ms;
 	transition-duration: 1000ms;
-	line-height: 45px;
+	line-height: 25px;
 	position: relative;
 	z-index: 1;
 	border-radius: 4px;
