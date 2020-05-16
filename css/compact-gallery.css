@@ -16,9 +16,10 @@
   
   .gallery-block.compact-gallery .item{
     overflow: hidden;
-    margin-bottom: 0;
+    margin-bottom: 10px;
     background: black;
     opacity: 1;
+    margin-left: 10px;
   }
   
   .gallery-block.compact-gallery .item .image{
