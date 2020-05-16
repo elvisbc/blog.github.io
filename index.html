@@ -128,7 +128,9 @@
         </div>
     </section>
     <div style="background-color: black;text-align: center;">
-        <audio src="https://listenssl.ibizaglobalradio.com:8024/stream" controls="controls" ></audio>
+        <audio id="reproductor" src="https://listenssl.ibizaglobalradio.com:8024/stream" ></audio>
+        <button onclick="document.getElementById('reproductor').play()">play</button>
+        <button onclick="document.getElementById('reproductor').pause()">pause</button>
     </div>
     
 
