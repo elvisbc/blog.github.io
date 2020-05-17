@@ -3212,4 +3212,16 @@ ol {
 
 
 }
+.imagencal{
+	padding: 20px;
+}
+.texto1 {
+color: white;
+font-size: 16px;
+padding:20px;
+}
+.texto2 {
+	color: white;
+	font-size: 10px;
+}
 
