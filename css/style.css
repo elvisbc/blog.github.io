@@ -3212,16 +3212,18 @@ ol {
 
 
 }
-.imagencal{
+/*.imagencal{
 	padding: 20px;
-}
+}*/
 .texto1 {
 color: white;
-font-size: 14px;
+font-size: 15px;
 padding-left: 10px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .texto2 {
 	color: white;
 	font-size: 10px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
