@@ -18,60 +18,146 @@
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
-
-    <section class="gallery-block compact-gallery" style="background-color:black;">
+    <section class="gallery-block compact-gallery">
         <div class="container">
-            <div class="row no-gutters">
-                <div class="col-md-6 col-lg-4 item zoom-on-hover">
-                    <a class="lightbox" href="img/image1.jpg">
-                        <img class="img-fluid image" src="img/image1.jpg">
-                        <span class="description">
-                            <span class="description-heading">Lorem Ipsum</span>
-                            <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-md-6 col-lg-4 item zoom-on-hover">
-                    <a class="lightbox" href="img/image2.jpg">
-                        <img class="img-fluid image" src="img/image2.jpg">
-                        <span class="description">
-                            <span class="description-heading">Lorem Ipsum</span>
-                            <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-md-6 col-lg-4 item zoom-on-hover">
-                    <a class="lightbox" href="img/image3.jpg">
-                        <img class="img-fluid image" src="img/image3.jpg">
-                        <span class="description">
-                            <span class="description-heading">Lorem Ipsum</span>
-                            <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-md-6 col-lg-4 item zoom-on-hover">
-                    <a class="lightbox" href="img/image4.jpg">
-                        <img class="img-fluid image" src="img/image4.jpg">
-                        <span class="description">
-                            <span class="description-heading">Lorem Ipsum</span>
-                            <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-                        </span>
+            <div class="heading">
+                <h2>Compact Gallery</h2>
+            </div>
+            <div class="contenedor-modal">
+
+                <div class="row no-gutters">
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                            <a class="lightbox" >
+                            <img class="img-fluid image" src="img/image1.jpg" data-toggle="modal" data-target="#miModal">
+               
+                            <span class="description">
+                                <span class="description-heading">Lorem Ipsum</span>
+                                <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                            </span>
                         </a>
                     </div>
-                <div class="col-md-6 col-lg-4 item zoom-on-hover">
-                    <a class="lightbox-popup" href="img/image5.jpg">
-                        <img class="img-fluid image" src="img/image5.jpg">
+
+
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                        <a class="lightbox" >
+                        <img class="img-fluid image" src="img/image2.jpg" data-toggle="modal" data-target="#miModal2">
+           
                         <span class="description">
                             <span class="description-heading">Lorem Ipsum</span>
                             <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
                         </span>
                     </a>
                 </div>
-        
-               
+
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" >
+                    <img class="img-fluid image" src="img/image3.jpg" data-toggle="modal" data-target="#miModal3">
+       
+                    <span class="description">
+                        <span class="description-heading">Lorem Ipsum</span>
+                        <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                    </span>
+                    </a>
+                </div>
+
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" >
+                    <img class="img-fluid image" src="img/image4.jpg" data-toggle="modal" data-target="#miModal3">
+       
+                    <span class="description">
+                        <span class="description-heading">Lorem Ipsum</span>
+                        <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                    </span>
+                    </a>
+                </div>
+
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" >
+                    <img class="img-fluid image" src="img/image5.jpg" data-toggle="modal" data-target="#miModal3">
+       
+                    <span class="description">
+                        <span class="description-heading">Lorem Ipsum</span>
+                        <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                    </span>
+                    </a>
+                </div>
+
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" >
+                    <img class="img-fluid image" src="img/image6.jpg" data-toggle="modal" data-target="#miModal3">
+       
+                    <span class="description">
+                        <span class="description-heading">Lorem Ipsum</span>
+                        <span class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                    </span>
+                    </a>
+                </div>
             </div>
         </div>
+
+            
+    
+        
     </section>
+
+    <div class="modal fade" id="miModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h4 class="modal-title" id="myModalLabel">Esto es un modal</h4>
+            </div>
+            <div class="modal-body">
+                <img src="img/image1.jpg"/>
+              Texto del modal
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="miModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h4 class="modal-title" id="myModalLabel">Esto es un modal</h4>
+            </div>
+            <div class="modal-body">
+                <img src="img/image2.jpg"/>
+              Texto del modal
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="miModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h4 class="modal-title" id="myModalLabel">Esto es un modal</h4>
+            </div>
+            <div class="modal-body">
+                <img src="img/image3.jpg"/>
+              Texto del modal
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      
+      
+
+      
+
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
     <script>
         baguetteBox.run('.compact-gallery', { animation: 'slideIn'});
