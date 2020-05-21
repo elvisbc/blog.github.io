@@ -3238,3 +3238,15 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	position: relative;
 	top: 40%;
   }
+  .parrafoModal{
+	color: white;
+	text-align: justify;
+	line-height: 17px;
+	margin-top: 10px;
+  }
+  .margenImagen{
+	margin: 0 auto;
+	/*margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;*/
+  }
